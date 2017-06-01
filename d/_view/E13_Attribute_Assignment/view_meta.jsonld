@@ -37,7 +37,12 @@
     },
     {
       "annal:field_id": "_field/P4_has_time_span",
-      "annal:field_placement": "small:0,12",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/P7_took_place_at",
+      "annal:field_placement": "small:0,12;medium:6,6",
       "annal:property_uri": ""
     },
     {

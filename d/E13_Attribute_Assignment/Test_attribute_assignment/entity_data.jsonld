@@ -1,0 +1,34 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "E13_Attribute_Assignment/Test_attribute_assignment",
+  "@type": [
+    "crm:E13_Attribute_Assignment",
+    "crm:E7_Activity",
+    "crm:E5_Event",
+    "crm:E4_Period",
+    "crm:E2_Temporal_Entity",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Test_attribute_assignment",
+  "annal:type": "crm:E13_Attribute_Assignment",
+  "annal:type_id": "E13_Attribute_Assignment",
+  "crm:P11_had_participant": [],
+  "crm:P12_occurred_in_the_presence_of": [],
+  "crm:P140_assigned_attribute_to": "E1_CRM_Entity/CIDOC_CRM_core_overview",
+  "crm:P141_assigned": "",
+  "crm:P14_carried_out_by": [],
+  "crm:P1_is_identified_by_r": [],
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P4_has_time-span": "E52_Time_Span/Test_timespan",
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "rdfs:comment": "Test attribute assignment",
+  "rdfs:label": "Test attribute assignment"
+}
