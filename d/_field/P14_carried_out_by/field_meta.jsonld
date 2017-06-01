@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P14_carried_out_by",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E7_Activity",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E39_Actor",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E39 Actor",
+  "annal:id": "P14_carried_out_by",
+  "annal:placeholder": "(Select actor)",
+  "annal:property_uri": "crm:P14_carried_out_by",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "Indicates the active participation of an Actor (instance of E39 Actor) in an E7 Activity.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "P14 carried out by\r\n\r\nThis property describes the active participation of an E39 Actor in an E7 Activity.\r\n\r\nIt implies causal or legal responsibility. The P14.1 in the role of property of the property allows the nature of an Actor's participation to be specified.\r\n\r\n## Examples:\r\n\r\n- the painting of the Sistine Chapel (E7) carried out by Michaelangelo Buonaroti (E21) in the role of master craftsman (E55)\r\n\r\n## NOTE: \r\n\r\nThe RDF representation of CIDOC CRM does not currently support use of  P14.1, as there is no way to attach statements to a particular use of a property.  This kind of description can be created using a PROV qualified association.  See [this note](https://github.com/gklyne/DMO_Experiment/blob/master/CIDOC_CRM_PROV.md) for more information.\r\n",
+  "rdfs:label": "P14 carried out by"
+}

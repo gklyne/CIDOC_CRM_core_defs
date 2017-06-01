@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E41_Appellation",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E41_Appellation",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E90_Symbolic_Object"
+    },
+    {
+      "@id": "crm:E28_Conceptual_Object"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Default_list",
+  "annal:type_view": "_view/Default_view",
+  "annal:uri": "crm:E41_Appellation",
+  "rdfs:comment": "# E41 Appellation\r\n\r\nThis class comprises signs, either meaningful or not, or arrangements of signs following a specific syntax, that are used or can be used to refer to and identify a specific instance of some class or category within a certain context. Instances of E41 Appellation do not identify things by their meaning, even if they happen to have one, but instead by convention, tradition, or agreement. Instances of E41 \r\n\r\nAppellation are cultural constructs; as such, they have a context, a history, and a use in time and space by some group of users. A given instance of E41 Appellation can have alternative forms, i.e., other instances of E41 Appellation that are always regarded as equivalent independent from the thing it denotes.  \r\n\r\nSpecific subclasses of E41 Appellation should be used when instances of E41 Appellation of a characteristic form are used for particular objects. Instances of E49 Time Appellation, for example, which take the form of instances of E50 Date, can be easily recognised. E41 Appellation should not be confused with the act of naming something. Cf. E15 Identifier Assignment. \r\n\r\nExamples: \r\n\r\n- \"Martin\"  \r\n- \"the Forth Bridge\" \r\n- \"the Merchant of Venice\" (E35) \r\n- \"Spigelia marilandica (L.) L.\" [not the species, just the name] \r\n- \"information science\" [not the science itself, but the name through which we refer to it in an English-speaking context]  \r\n- \u201c\u5b89\u201d [Chinese \u201can\u201d, meaning \u201cpeace\u201d]\r\n",
+  "rdfs:label": "E41 Appellation"
+}

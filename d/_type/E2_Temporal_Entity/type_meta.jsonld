@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E2_Temporal_Entity",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E2_Temporal_Entity",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E2_Temporal_Entity",
+  "annal:type_view": "_view/E2_Temporal_Entity",
+  "annal:uri": "crm:E2_Temporal_Entity",
+  "rdfs:comment": "# E2 Temporal Entity\r\n\r\nThis class comprises all phenomena, such as the instances of E4 Periods, E5 Events and states, which happen over a limited extent in time.\r\n\r\nIn some contexts, these are also called perdurants. This class is disjoint from E77 Persistent Item. This is an abstract class and has no direct instances. E2 Temporal Entity is specialized into E4 Period, which applies to a particular geographic area (defined with a greater or lesser degree of precision), and E3 Condition State, which applies to instances of E18 Physical Thing.\r\n\r\n## Examples:\r\n\r\n- Bronze Age (E4)\r\n- the earthquake in Lisbon 1755 (E5)\r\n- the Peterhof Palace near Saint Petersburg being in ruins from 1944\r\n\u2013 1946 (E3)\r\n",
+  "rdfs:label": "E2 Temporal Entity",
+  "rdfs:seeAlso": [
+    {
+      "@id": "http://erlangen-crm.org/docs/ecrm/140617/index.html#anchor1219898715"
+    }
+  ]
+}

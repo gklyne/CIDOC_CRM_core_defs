@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E42_Identifier",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E42_Identifier",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E28_Conceptual_Object"
+    },
+    {
+      "@id": "crm:E71_Man-Made_Thing"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Default_list",
+  "annal:type_view": "_view/Default_view",
+  "annal:uri": "crm:E42_Identifier",
+  "rdfs:comment": "# E42 Identifier\r\n\r\nThis class comprises strings or codes assigned to instances of E1 CRM Entity in order to identify them uniquely and permanently within the context of one or more organisations. Such codes are often known as inventory numbers, registration codes, etc. and are typically composed of alphanumeric sequences. The class E42 Identifier is not normally used for machine-generated identifiers used for automated processing unless these are also used by human agents.  \r\n\r\n## Examples: \r\n\r\n- \"MM.GE.195\" \r\n- \"13.45.1976\" \r\n- \"OXCMS: 1997.4.1\" \r\n- ISSN \"0041-5278\" \r\n- ISRC \"FIFIN8900116\" \r\n- Shelf mark \"Res 8 P 10\" \r\n- \"Guillaume de Machaut (1300?-1377)\" [a controlled personal name heading that follows the French rules]\r\n",
+  "rdfs:label": "E42 Identifier"
+}

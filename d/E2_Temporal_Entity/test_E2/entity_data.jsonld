@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "E2_Temporal_Entity/test_E2",
+  "@type": [
+    "crm:E2_Temporal_Entity",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_E2",
+  "annal:type": "crm:E2_Temporal_Entity",
+  "annal:type_id": "E2_Temporal_Entity",
+  "crm:P1_is_identified_by_r": [],
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P4_has_time-span": "E52_Time_Span/Test_timespan",
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "rdfs:comment": "Test E2 temporal entity",
+  "rdfs:label": "Test E2 temporal entity"
+}

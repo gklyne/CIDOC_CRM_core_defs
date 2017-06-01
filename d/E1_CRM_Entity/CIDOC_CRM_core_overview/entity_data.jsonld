@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "E1_CRM_Entity/CIDOC_CRM_core_overview",
+  "@type": [
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "CIDOC_CRM_core_overview",
+  "annal:type": "crm:E1_CRM_Entity",
+  "annal:type_id": "E1_CRM_Entity",
+  "crm:P1_is_identified_by_r": [],
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "rdfs:comment": "# CIDOC CRM core overview \r\n\r\nThe CIODOC CRM core elements are based upon the paper (@@@ Doerr and Iorizzo).  The choice of terms included here is, in some cases, somewhat arbitrary as the description of CRM core is quite abstract, and does not not make reference to specific CRM terms.  \r\n\r\n## Overview of class hierarchy\r\n\r\n* [crm:E1_CRM_Entity]($BASE:_type/E1_CRM_Entity)\r\n    * [crm:E2_Temporal_Entity]($BASE:_type/E2_Temporal_Entity)\r\n        * crm:E4_Period\r\n            * [crm:E5_Event]($BASE:_type/E5_Event)\r\n                * [crm:E7_Activity]($BASE:_type/E7_Activity)\r\n                    * [crm:E13_Attribute_Assignment]($BASE:_type/E13_Attribute_Assignment)\r\n                        * [crm:E15_Identifier_Assignment]($BASE:_type/E15_Identifier_Assignment)\r\n    * [crm:E77_Persistent_Item]($BASE:_type/E77_Persistent_Item)\r\n        * [crm:E39_Actor]($BASE:_type/E39_Actor)\r\n        * [crm:E70_Thing]($BASE:_type/E70_Thing)\r\n            * [crm:E18_Physical_Thing]($BASE:_type/E18_Physical_Thing)\r\n                * (subset of crm:E71_Man-Made_Thing)\r\n                    * crm:E24_Physical_Man-Made_Thing\r\n                        * crm:E22_Man-Made_Object\r\n            * [crm:E28_Conceptual_Object]($BASE:_type/E28_Conceptual_Object)\r\n                * crm:E90_Symbolic_Object\r\n                    * [crm:E41_Appellation]($BASE:_type/E41_Appellation)\r\n                    * E73_Information_Object\r\n                        * [crm:E31_Document]($BASE:_type/E31_Document)\r\n                            * crm:E32_Authority_Document\r\n                * [crm:E42_Identifier]($BASE:_type/E42_Identifier)\r\n                * [crm:E55_Type]($BASE:_type/E55_Type)\r\n    * [crm:E52_Time-Span]($BASE:_type/E52_Time_Span) (literal)\r\n    * [crm:E53_Place]($BASE:_type/E53_Place)\r\n\r\n",
+  "rdfs:label": "CIDOC CRM core overview"
+}

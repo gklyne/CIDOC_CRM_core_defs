@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P71i_is_listed_in_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E1_CRM_Entity",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/P71i_is_listed_in",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E1_CRM_Entity",
+  "annal:id": "P71i_is_listed_in_r",
+  "annal:placeholder": "(Repeat field P71i is listed in)",
+  "annal:property_uri": "crm:P71i_is_listed_in_r",
+  "annal:repeat_label_add": "Add authority document",
+  "annal:repeat_label_delete": "Remove authority document",
+  "annal:tooltip": "Authority documents (instances of E32 Authority Document) which list the current entity.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Authority documents\r\n\r\nZero, one or more authority documents (instances of [E32 Authority Document]($BASE:_type/E31_Document) which list the current entity.\r\n\r\n",
+  "rdfs:label": "Authority documents"
+}

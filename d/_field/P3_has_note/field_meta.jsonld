@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P3_has_note",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Markdown",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:RichText",
+  "annal:id": "P3_has_note",
+  "annal:placeholder": "(Text of note)",
+  "annal:property_uri": "crm:P3_has_note",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "Any informal description of an object, typically that has not been expressed in more formal constructs.   This can provide characterization of the entity itself, its internal structures, appearance etc.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P3 has note\r\n\r\nThis property is a container for all informal descriptions about an object that have not been expressed in terms of CRM constructs.   In particular it captures the characterisation of the item itself, its internal structures, appearance etc.\r\n\r\nLike property P2 has type (is type of), this property is a consequence of the restricted focus of the CRM. The aim is not to capture, in a structured form, everything that can be said about an item; indeed, the CRM formalism is not regarded as sufficient to express everything that can be said. Good practice requires use of distinct note fields for different aspects of a characterisation. The P3.1 has type property of P3 has note allows differentiation of specific notes, e.g. \"construction\", \"decoration\" etc.\r\n\r\nAn item may have many notes, but a note is attached to a specific item.\r\n\r\nExamples:\r\n\r\n- coffee mug - OXCMS:1983.1.1 (E19) has note \"chipped at edge of handle\"\r\n",
+  "rdfs:label": "P3 has note"
+}

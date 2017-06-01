@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E7_Activity",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E7_Activity",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E5_Event"
+    },
+    {
+      "@id": "crm:E4_Period"
+    },
+    {
+      "@id": "crm:E2_Temporal_Entity"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E7_Activity",
+  "annal:type_view": "_view/E7_Activity",
+  "annal:uri": "crm:E7_Activity",
+  "rdfs:comment": "# E7 Activity\r\n\r\nThis class comprises actions intentionally carried out by instances of E39 Actor that result in changes of state in the cultural, social, or physical systems documented.\r\n\r\nThis notion includes complex, composite and long-lasting actions such as the building of a settlement or a war, as well as simple, short-lived actions such as the opening of a door.\r\n\r\n## Examples:\r\n\r\n- the Battle of Stalingrad\r\n- the Yalta Conference\r\n- my birthday celebration 28-6-1995\r\n- the writing of \"Faust\" by Goethe (E65)\r\n- the formation of the Bauhaus 1919 (E66)\r\n- calling the place identified by TGN '7017998' 'Quyunjig' by the people of Iraq\r\n",
+  "rdfs:label": "E7 Activity",
+  "rdfs:seeAlso": []
+}

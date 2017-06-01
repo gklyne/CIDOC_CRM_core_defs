@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P4_has_time_span",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E2_Temporal_Entity",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E52_Time_Span",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E52_Time-Span",
+  "annal:id": "P4_has_time_span",
+  "annal:placeholder": "(Select time-span)",
+  "annal:property_uri": "crm:P4_has_time-span",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "This property describes the temporal confinement of an instance of an E2 Temporal Entity.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P4 has time-span\r\n\r\nThis property describes the temporal confinement of an instance of an E2 Temporal Entity. \r\n\r\nThe related E52 Time-Span is understood as the real Time-Span during which the phenomena were active, which make up the temporal entity instance. It does not convey any other meaning than a positioning on the \"time-line\" of chronology. The Time-Span in turn is approximated by a set of dates (E61 Time Primitive). A temporal entity can have in reality only one Time-Span, but there may exist alternative opinions about it, which we would express by assigning multiple Time-Spans. Related temporal entities may share a Time-Span. Time-Spans may have completely unknown dates but other descriptions by which we can infer knowledge. \r\n\r\n## Examples:\r\n \r\n- the Yalta Conference (E7) has time-span Yalta Conference time-span (E52)\r\n",
+  "rdfs:label": "P4 has time-span"
+}

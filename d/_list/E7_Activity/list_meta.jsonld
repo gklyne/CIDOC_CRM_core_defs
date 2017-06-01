@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/E7_Activity",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/E7_Activity",
+  "annal:default_view": "_view/E7_Activity",
+  "annal:display_type": "List",
+  "annal:id": "E7_Activity",
+  "annal:list_entity_selector": "'crm:E7_Activity' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "crm:E7_Activity",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "# List _initial_values_\r\n\r\n(List information here)",
+  "rdfs:label": "E7 Activity list"
+}

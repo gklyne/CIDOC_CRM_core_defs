@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E5_Event",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E5_Event",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E4_Period"
+    },
+    {
+      "@id": "crm:E2_Temporal_Entity"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E5_Event",
+  "annal:type_view": "_view/E5_Event",
+  "annal:uri": "crm:E5_Event",
+  "rdfs:comment": "# E5 Event\r\n\r\nThis class comprises changes of states in cultural, social or physical systems, regardless of scale, brought about by a series or group of coherent physical, cultural, technological or legal phenomena. Such changes of state will affect instances of E77 Persistent Item or its subclasses.\r\n\r\nThe distinction between an E5 Event and an E4 Period is partly a question of the scale of observation. Viewed at a coarse level of detail, an E5 Event is an 'instantaneous' change of state. At a fine level, the E5 Event can be analysed into its component phenomena within a space and time frame, and as such can be seen as an E4 Period. The reverse is not necessarily the case: not all instances of E4 Period give rise to a noteworthy change of state.  \r\n\r\n## Examples: \r\n\r\n- the birth of Cleopatra (E67) - the destruction of Lisbon by earthquake in 1755 (E6) \r\n- World War II (E7) - the Battle of Stalingrad (E7) \r\n- the Yalta Conference (E7) \r\n- my birthday celebration 28-6-1995 (E7) \r\n- the falling of a tile from my roof last Sunday \r\n- the CIDOC Conference 2003 (E7)\r\n",
+  "rdfs:label": "E5 Event",
+  "rdfs:seeAlso": []
+}

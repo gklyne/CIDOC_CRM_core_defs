@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P38_deassigned",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E15_Identifier_Assignment",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E42_Identifier",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E42_Identifier",
+  "annal:id": "P38_deassigned",
+  "annal:placeholder": "(Select identifier)",
+  "annal:property_uri": "crm:P38_deassigned",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "An identifier (instance of E42 Identifier) that was de-assigned.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P38 deassigned\r\n\r\nThis property records the identifier that was deassigned from an instance of E1 CRM Entity.\r\n\r\nDeassignment of an identifier may be necessary when an item is taken out of an inventory, a new numbering system is introduced or items are merged or split up.\r\n\r\nThe same identifier may be deassigned on more than one occasion.\r\n\r\n## Examples:\r\n\r\n- 31 July 2001 Identifier Assignment of the silver cup OXCMS:2001.1.32 (E15) deassigned \"232\" (E42)\r\n",
+  "rdfs:label": "P38 deassigned"
+}

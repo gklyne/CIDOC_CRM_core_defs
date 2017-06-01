@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E31_Document",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E31_Document",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E73_Information_Object"
+    },
+    {
+      "@id": "crm:E90_Symbolic_Object"
+    },
+    {
+      "@id": "crm:E28_Conceptual_Object"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Default_list",
+  "annal:type_view": "_view/Default_view",
+  "annal:uri": "crm:E31_Document",
+  "rdfs:comment": "# E31 Document\r\n\r\nThis class comprises identifiable immaterial items that make propositions about reality. These propositions may be expressed in text, graphics, images, audiograms, videograms or by other similar means. \r\n\r\nDocumentation databases are regarded as a special case of E31 Document. \r\n\r\nThis class should not be confused with the term \"document\" in Information Technology, which is compatible with E73 Information Object. \r\n\r\nExamples: \r\n\r\n- the Encyclopaedia Britannica (E32) \r\n- the photo of the Allied Leaders at Yalta published by the UPI, 1945 \r\n- the Doomsday Book\r\n",
+  "rdfs:label": "E31 Document",
+  "rdfs:seeAlso": []
+}

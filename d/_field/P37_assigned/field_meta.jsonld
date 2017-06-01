@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P37_assigned",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E15_Identifier_Assignment",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E42_Identifier",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E42_Identifier",
+  "annal:id": "P37_assigned",
+  "annal:placeholder": "(Select identifier)",
+  "annal:property_uri": "crm:P37_assigned",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "An identifier  (instance of E42 Identifier) that was assigned.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P37 assigned\r\n\r\nThis property records the identifier that was assigned to an item in an Identifier Assignment activity.\r\n\r\nThe same identifier may be assigned on more than one occasion.\r\n\r\nAn Identifier might be created prior to an assignment.\r\n\r\n## Examples:\r\n\r\n- 01 June 1997 Identifier Assignment of the silver cup donated by Martin Doerr (E15) assigned \"232\" (E42)\r\n",
+  "rdfs:label": "P37 assigned"
+}

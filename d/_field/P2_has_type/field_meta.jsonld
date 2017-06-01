@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P2_has_type",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E55_Type",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E55_Type",
+  "annal:id": "P2_has_type",
+  "annal:placeholder": "(select entity type)",
+  "annal:property_uri": "crm:P2_has_type",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "A type (instance of E55 Type) that refines an entity's underlying CRM class using a terminological hierarchy, or thesaurus.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P2 has type\r\n\r\nThis property allows sub typing of CRM entities - a form of specialisation \u2013 through the use of a terminological hierarchy, or thesaurus.\r\n\r\nThe CRM is intended to focus on the high-level entities and relationships needed to describe data structures. Consequently, it does not specialise entities any further than is required for this immediate purpose. However, entities in the isA hierarchy of the CRM may by specialised into any number of sub entities, which can be defined in the E55 Type hierarchy. E51 Contact Point, for example, may be specialised into \"e-mail address\", \"telephone number\", \"post office box\", \"URL\" etc. none of which figures explicitly in the CRM hierarchy. Sub typing obviously requires consistency between the meaning of the terms assigned and the more general intent of the CRM entity in question.\r\n\r\n## Examples:\r\n\r\n- \"enquiries@cidoc-crm.org\" (E51) has type e-mail address (E55)",
+  "rdfs:label": "P2 has type"
+}

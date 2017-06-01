@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P11_had_participant_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E5_Event",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/P11_had_participant",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E5_Event",
+  "annal:id": "P11_had_participant_r",
+  "annal:placeholder": "(Repeat field P11 had participant)",
+  "annal:property_uri": "crm:P11_had_participant",
+  "annal:repeat_label_add": "Add participant",
+  "annal:repeat_label_delete": "Remove participant",
+  "annal:tooltip": "Actors (instances of E39 Actor) who participated in this event.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Event participants\r\n\r\nZero, one or more actors (instances of [E39 Actor]($BASE:_type/E39_Actor)) who participated in this event.",
+  "rdfs:label": "Event particpants"
+}

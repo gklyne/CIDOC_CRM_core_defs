@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E55_Type",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E55_Type",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E28_Conceptual_Object"
+    },
+    {
+      "@id": "crm:E71_Man-Made_Thing"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Default_list",
+  "annal:type_view": "_view/Default_view",
+  "annal:uri": "crm:E55_Type",
+  "rdfs:comment": "# E55 Type\r\n\r\nThis class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify instances of CRM classes. Instances of E55 Type represent concepts in contrast to instances of E41 Appellation which are used to name instances of CRM classes. \r\n\r\nE55 Type is the CRM's interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses of E55 Type, forming hierarchies of terms, i.e. instances of E55 Type linked via P127 has broader term (has narrower term). Such hierarchies may be extended with additional properties.  \r\n\r\n## Examples: \r\n\r\n- weight, length, depth [types of E54 Dimension] \r\n- portrait, sketch, animation [types of E38 image] \r\n- French, English, German [E56] \r\n- excellent, good, poor [types of E3 Condition State] \r\n- Ford Model T, chop stick [types of E22 Man-Made Object] \r\n- cave, doline, scratch [types of E26 Physical Feature] \r\n- poem, short story [types of E33 Linguistic Object] \r\n- wedding, earthquake, skirmish [types of E5 Event]\r\n",
+  "rdfs:label": "E55 Type"
+}

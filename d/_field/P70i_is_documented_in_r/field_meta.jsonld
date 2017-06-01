@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P70i_is_documented_in_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E1_CRM_Entity",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/P70i_is_documented_in",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E1_CRM_Entity",
+  "annal:id": "P70i_is_documented_in_r",
+  "annal:placeholder": "(Repeat field P70i is documented in)",
+  "annal:property_uri": "crm:P70i_is_documented_in_r",
+  "annal:repeat_label_add": "Add document",
+  "annal:repeat_label_delete": "Remove document",
+  "annal:tooltip": "Documents (instances of E31 Document) which describe the current entity.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P70i is documented in\r\n\r\nZero one or more documents (instances of [E31_Document]($BASE:_type/E31_Document)) within which the current entity is described.",
+  "rdfs:label": "Documentation"
+}

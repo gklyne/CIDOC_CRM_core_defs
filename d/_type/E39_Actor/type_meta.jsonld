@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E39_Actor",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E39_Actor",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E77_Persistent_Item"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Default_list",
+  "annal:type_view": "_view/Default_view",
+  "annal:uri": "crm:E39_Actor",
+  "rdfs:comment": "# E39 Actor\r\n\r\nThis class comprises people, either individually or in groups, who have the potential to perform intentional actions for which they can be held responsible. \r\n\r\nThe CRM does not attempt to model the inadvertent actions of such actors. Individual people should be documented as instances of E21 Person, whereas groups should be documented as instances of either E74 Group or its subclass E40 Legal Body.  \r\n\r\n## Examples: \r\n\r\n- London and Continental Railways (E40) \r\n- the Governor of the Bank of England in 1975 (E21) \r\n- Sir Ian McKellan (E21)\r\n",
+  "rdfs:label": "E39 Actor"
+}

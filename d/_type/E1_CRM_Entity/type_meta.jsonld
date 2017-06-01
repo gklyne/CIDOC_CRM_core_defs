@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E1_CRM_Entity",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E1_CRM_Entity",
+  "annal:supertype_uri": [],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E1_CRM_Entity",
+  "annal:type_view": "_view/E1_CRM_Entity",
+  "annal:uri": "crm:E1_CRM_Entity",
+  "rdfs:comment": "# E1 CRM Entity\r\n\r\nThis class comprises all things in the universe of discourse of the CIDOC Conceptual Reference Model.\r\n\r\nIt is an abstract concept providing for three general properties:\r\n\r\n1. Identification by name or appellation, and in particular by a preferred identifier\r\n2. Classification by type, allowing further refinement of the specific subclass an instance belongs to\r\n3. Attachment of free text for the expression of anything not captured by formal properties \r\n\r\nWith the exception of E59 Primitive Value, all other classes within the CRM are directly or indirectly specializations of E1 CRM Entity.\r\n\r\n## Examples:\r\n\r\n- the earthquake in Lisbon 1755 (E5)\r\n\r\n",
+  "rdfs:label": "E1 CRM Entity",
+  "rdfs:seeAlso": [
+    {
+      "@id": "http://erlangen-crm.org/docs/ecrm/140617/index.html#anchor-610122424"
+    }
+  ]
+}

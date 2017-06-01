@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P11_had_participant",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E5_Event",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E39_Actor",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E39 Actor",
+  "annal:id": "P11_had_participant",
+  "annal:placeholder": "(Select event participant)",
+  "annal:property_uri": "crm:P11_had_participant",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "This property describes the active or passive participation of instances of E39 Actors in an E5 Event.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P11 had participant\r\n\r\nThis property describes the active or passive participation of instances of E39 Actors in an E5 Event.\r\n\r\nIt connects the life-line of the related E39 Actor with the E53 Place and E50 Date of the event. The property implies that the Actor was involved in the event but does not imply any causal relationship. The subject of a portrait can be said to have participated in the creation of the portrait.\r\n\r\n## Examples:\r\n\r\n- Napoleon (E21) participated in The Battle of Waterloo (E7)\r\n- Maria (E21) participated in Photographing of Maria (E7)",
+  "rdfs:label": "P11 had participant"
+}

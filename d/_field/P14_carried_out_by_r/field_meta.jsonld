@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P14_carried_out_by_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E7_Activity",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/P14_carried_out_by",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E7_Activity",
+  "annal:id": "P14_carried_out_by_r",
+  "annal:placeholder": "(Repeat field P14 carried out by)",
+  "annal:property_uri": "crm:P14_carried_out_by",
+  "annal:repeat_label_add": "Add actor",
+  "annal:repeat_label_delete": "Remove actor",
+  "annal:tooltip": "Actors (instances of E39 Actor) who were instrumental in conduct of this activity.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Carried out by\r\n\r\nZero, one or more actors (instances of [E39 Actor]($BASE:_type/E39_Actor)) who bear some instrumentality in this activity having taken place.\r\n",
+  "rdfs:label": "Carried out by"
+}

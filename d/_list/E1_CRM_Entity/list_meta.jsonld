@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/E1_CRM_Entity",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/E1_CRM_Entity",
+  "annal:default_view": "_view/E1_CRM_Entity",
+  "annal:display_type": "List",
+  "annal:id": "E1_CRM_Entity",
+  "annal:list_entity_selector": "'crm:E1_CRM_Entity' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "crm:E1_CRM_Entity",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "# List _initial_values_\r\n\r\n(List information here)",
+  "rdfs:label": "E1 CRM Entity list"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": [
+    {
+      "@base": "./"
+    },
+    "coll_context.jsonld"
+  ],
+  "@id": "../",
+  "@type": [
+    "annal:Collection"
+  ],
+  "annal:id": "CIDOC_CRM_core_defs",
+  "annal:software_version": "0.1.37",
+  "annal:type": "annal:Collection",
+  "annal:type_id": "_coll",
+  "rdfs:comment": "",
+  "rdfs:label": "Common subset of CIDOC CRM term definitions"
+}

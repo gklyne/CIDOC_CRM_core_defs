@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P140_assigned_attribute_to",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E13_Attribute_Assignment",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E1_CRM_Entity",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E1_CRM_Entity",
+  "annal:id": "P140_assigned_attribute_to",
+  "annal:placeholder": "(Select entity to which attribute was assigned)",
+  "annal:property_uri": "crm:P140_assigned_attribute_to",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "An entity (instance of E1 CRM Entity) to which an attribute or relation is assigned.\r\n",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P140 assigned attribute to\r\n\r\nThis property indicates the item to which an attribute or relation is assigned.\r\n\r\n## Examples:\r\n\r\n- February 1997 Current Ownership Assessment of Martin Doerr's silver cup (E13) assigned attribute to Martin Doerr's silver cup (E19)\r\n- 01 June 1997 Identifier Assignment of the silver cup donated by Martin Doerr (E15) assigned attribute to silver cup 232 (E19)\r\n",
+  "rdfs:label": "P140 assigned attribute to"
+}

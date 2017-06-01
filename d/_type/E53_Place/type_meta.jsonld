@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E53_Place",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E53_Place",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Default_list",
+  "annal:type_view": "_view/Default_view",
+  "annal:uri": "crm:E53_Place",
+  "rdfs:comment": "# E53_Place\r\n\r\nThis class comprises extents in space, in particular on the surface of the earth, in the pure sense of physics: independent from temporal phenomena and matter. \r\n\r\nThe instances of E53 Place are usually determined by reference to the position of \"immobile\" objects such as buildings, cities, mountains, rivers, or dedicated geodetic marks. A Place can be determined by combining a frame of reference and a location with respect to this frame. It may be identified by one or more instances of E44 Place Appellation. \r\n\r\nIt is sometimes argued that instances of E53 Place are best identified by global coordinates or absolute reference systems. However, relative references are often more relevant in the context of cultural documentation and tend to be more precise. In particular, we are often interested in position in relation to large, mobile objects, such as ships. For example, the Place at which Nelson died is known with reference to a large mobile object \u2013 H.M.S Victory. A resolution of this Place in terms of absolute coordinates would require knowledge of the movements of the vessel and the precise time of death, either of which may be revised, and the result would lack historical and cultural relevance. \r\n\r\nAny object can serve as a frame of reference for E53 Place determination. The model foresees the notion of a \"section\" of an E19 Physical Object as a valid E53 Place determination.  \r\n\r\n## Examples: \r\n\r\n- the extent of the UK in the year 2003 \r\n- the position of the hallmark on the inside of my wedding ring \r\n- the place referred to in the phrase: \"Fish collected at three miles north of the confluence of the Arve and the Rhone\" \r\n- Here -> <-\r\n\r\n",
+  "rdfs:label": "E53 Place"
+}

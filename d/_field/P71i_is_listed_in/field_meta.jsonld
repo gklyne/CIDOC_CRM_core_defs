@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P71i_is_listed_in",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E1_CRM_Entity",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E31_Document",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E31_Document",
+  "annal:id": "P71i_is_listed_in",
+  "annal:placeholder": "(Select authority document that lists this entity)",
+  "annal:property_uri": "crm:P71i_is_listed_in",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "An authority document (instance of E32 Authority Document) which lists the current entity.\r\n",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P71i is listed in\r\n\r\nThis property documents a source E32 Authority Document for an instance of an E1 CRM Entity.\r\n\r\n## Examples:\r\n\r\n- \"alcazar\" (E55) is listed in the Art & Architecture Thesaurus (E32)\r\n",
+  "rdfs:label": "P71i is listed in"
+}
