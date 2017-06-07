@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P12i_was_present_at_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E77_Persistent_Item",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/P12i_was_present_at",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E77_Persistent_Item",
+  "annal:id": "P12i_was_present_at_r",
+  "annal:placeholder": "(Events at which an item was present)",
+  "annal:property_uri": "crm:P12i_was_present_at",
+  "annal:repeat_label_add": "Add event",
+  "annal:repeat_label_delete": "Remove event",
+  "annal:tooltip": "Zero, one or more events at which an item was present.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Events present at\r\n\r\nZero, one or more events at which an item was present.",
+  "rdfs:label": "Events present at"
+}

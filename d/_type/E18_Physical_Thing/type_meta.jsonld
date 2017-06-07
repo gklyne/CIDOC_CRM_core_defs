@@ -14,13 +14,20 @@
   "annal:supertype_uri": [
     {
       "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
     }
   ],
   "annal:type": "annal:Type",
   "annal:type_id": "_type",
-  "annal:type_list": "_list/Default_list",
-  "annal:type_view": "_view/Default_view",
+  "annal:type_list": "_list/E18_Physical_Thing",
+  "annal:type_view": "_view/E18_Physical_Thing",
   "annal:uri": "crm:E18_Physical_Thing",
   "rdfs:comment": "# E18_Physical_Thing\r\n\r\nThis class comprises all persistent physical items with a relatively stable form, man-made or natural. \r\n\r\nDepending on the existence of natural boundaries of such things, the CRM distinguishes the instances of E19 Physical Object from instances of E26 Physical Feature, such as holes, rivers, pieces of land etc. Most instances of E19 Physical Object can be moved (if not too heavy), whereas features are integral to the surrounding matter. \r\n\r\nThe CRM is generally not concerned with amounts of matter in fluid or gaseous states.  \r\n\r\n## Examples: \r\n\r\n- the Cullinan Diamond (E19) \r\n- the cave \"Ideon Andron\" in Crete (E26) \r\n- the Mona Lisa (E22)\r\n",
-  "rdfs:label": "E18 Physical Thing"
+  "rdfs:label": "E18 Physical Thing",
+  "rdfs:seeAlso": []
 }

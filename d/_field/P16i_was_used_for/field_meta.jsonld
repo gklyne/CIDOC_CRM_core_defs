@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P16i_was_used_for",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E70_Thing",
+  "annal:field_fields": [],
+  "annal:field_placement": "",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E7_Activity",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E7_Activity",
+  "annal:id": "P16i_was_used_for",
+  "annal:placeholder": "(Select activity for which thing was used)",
+  "annal:property_uri": "crm:P16i_was_used_for",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "This property describes the use of material or immaterial things (instances of E70_Thing) in a way essential to the performance or the outcome of an E7 Activity.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P16 was used for\r\n\r\nThis property describes the use of material or immaterial things in a way essential to the performance or the outcome of an E7 Activity.\r\n\r\nThis property typically applies to tools, instruments, moulds, raw materials and items embedded in a product. It implies that the presence of the object in question was a necessary condition for the action. For example, the activity of writing this text required the use of a computer. \r\n\r\nAn immaterial thing can be used if at least one of its carriers is present. For example, the software tools on a computer.\r\n\r\nAnother example is the use of a particular name by a particular group of people over some span to identify a thing, such as a settlement. In this case, the physical carriers of this name are at least the people understanding its use.\r\n\r\n## Examples:\r\n\r\n- the writing of this scope note (E7) used specific object Nicholas Crofts' computer (E22)\r\nmode of use Typing Tool; Storage Medium (E55)\r\n- the people of Iraq calling the place identified by TGN '7017998' (E7) used specific object\r\n\"Quyunjig\" (E44) mode of use Current; Vernacular (E55)\r\n",
+  "rdfs:label": "P16 was used for"
+}

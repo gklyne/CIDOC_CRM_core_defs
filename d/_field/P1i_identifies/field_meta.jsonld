@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P1i_identifies",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E41_Appellation",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E1_CRM_Entity",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E1_CRM_Entity",
+  "annal:id": "P1i_identifies",
+  "annal:placeholder": "(Select named entity)",
+  "annal:property_uri": "crm:P1i_identifies",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "An entity that is identified by this name.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P1 identifies\r\n\r\nThis property describes the naming or identification of any real world item by a name or any other identifier. \r\n\r\nThis property is intended for identifiers in general use, which form part of the world the model intends to describe, and not merely for internal database identifiers which are specific to a technical system, unless these latter also have a more general use outside the technical context. This property includes in particular identification by mathematical expressions such as coordinate systems used for the identification of instances of E53 Place. The property does not reveal anything about when, where and by whom this identifier was used. A more detailed representation can be made using the fully developed (i.e. indirect) path through E15 Identifier Assignment.  \r\n\r\n## Examples: \r\n\r\n- the capital of Italy (E53) is identified by \"Rome\" (E48) \r\n- text 25014-32 (E33) is identified by \"The Decline and Fall of the Roman Empire\" (E35)\r\n\r\n## See also:\r\n\r\n[http://erlangen-crm.org/docs/efrbroo/120131/objectproperties/P1isidentifiedby___301544383.html](http://erlangen-crm.org/docs/efrbroo/120131/objectproperties/P1isidentifiedby___301544383.html)\r\n\r\n",
+  "rdfs:label": "P1 identifies"
+}

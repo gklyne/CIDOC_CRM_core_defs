@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "E4_Period/Test_period",
+  "@type": [
+    "crm:E4_Period",
+    "crm:E2_Temporal_Entity",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Test_period",
+  "annal:type": "crm:E4_Period",
+  "annal:type_id": "E4_Period",
+  "crm:P1_is_identified_by_r": [],
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P4_has_time-span": "E52_Time_Span/Test_timespan",
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "crm:P7_took_place_at": "E53_Place/Test_place",
+  "rdfs:comment": "Test period",
+  "rdfs:label": "Test period"
+}

@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P11i_participated_in_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E39_Actor",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/P11i_participated_in",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E39_Actor",
+  "annal:id": "P11i_participated_in_r",
+  "annal:placeholder": "(Events in which an actor participated)",
+  "annal:property_uri": "crm:P11i_participated_in",
+  "annal:repeat_label_add": "Add event",
+  "annal:repeat_label_delete": "Remove event",
+  "annal:tooltip": "Zero, one or more events (instances of E5 Event) in which an actor has particpated.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Events participated in\r\n\r\nZero, one or more events in which an actor has particpated.",
+  "rdfs:label": "Events participated in"
+}

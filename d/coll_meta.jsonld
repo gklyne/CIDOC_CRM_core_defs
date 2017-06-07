@@ -9,6 +9,9 @@
   "@type": [
     "annal:Collection"
   ],
+  "annal:default_view_entity": "CIDOC_CRM_core_overview",
+  "annal:default_view_id": "E1_CRM_Entity",
+  "annal:default_view_type": "E1_CRM_Entity",
   "annal:id": "CIDOC_CRM_core_defs",
   "annal:software_version": "0.1.37",
   "annal:type": "annal:Collection",

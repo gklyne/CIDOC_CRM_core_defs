@@ -21,7 +21,7 @@
   "crm:P11_had_participant": [],
   "crm:P12_occurred_in_the_presence_of": [],
   "crm:P140_assigned_attribute_to": "E1_CRM_Entity/CIDOC_CRM_core_overview",
-  "crm:P141_assigned": "",
+  "crm:P141_assigned": "E41_Appellation/Test_apellation",
   "crm:P14_carried_out_by": [],
   "crm:P1_is_identified_by_r": [],
   "crm:P2_has_type": [],
@@ -29,6 +29,7 @@
   "crm:P4_has_time-span": "E52_Time_Span/Test_timespan",
   "crm:P70i_is_documented_in_r": [],
   "crm:P71i_is_listed_in_r": [],
+  "crm:P7_took_place_at": "E53_Place/Test_place",
   "rdfs:comment": "Test attribute assignment",
   "rdfs:label": "Test attribute assignment"
 }

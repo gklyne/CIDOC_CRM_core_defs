@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/E77_Persistent_Item",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/E77_Persistent_Item",
+  "annal:default_view": "_view/E77_Persistent_Item",
+  "annal:display_type": "List",
+  "annal:id": "E77_Persistent_Item",
+  "annal:list_entity_selector": "'crm:E77_Persistent_Item' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "crm:E77_Persistent_Item",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "# List _initial_values_\r\n\r\n(List information here)",
+  "rdfs:label": "E77 Persistent Item list"
+}

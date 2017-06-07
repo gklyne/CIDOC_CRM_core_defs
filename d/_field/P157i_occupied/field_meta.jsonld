@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P157i_occupied",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E18_Physical_Thing",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E53_Place",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E53_Place",
+  "annal:id": "P157i_occupied",
+  "annal:placeholder": "(Select place)",
+  "annal:property_uri": "crm:P157i_occupied",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "This property describes a location (Instance of E53 Place) that was occupied by a physical thing.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P157 occupied\r\n\r\nThis property associates an instance of E53 Place with the in stance of E18 Physical Thing that determines a reference space for this instance of E53 Place by being at rest with respect to this reference space.\r\n\r\nThe relative stability of form of an E18 Physical Thing defines its default reference space. The reference space is not spatially limited to the referred thing. For example, a ship determines a reference space in terms of which other ships in its neighbourhood may be described. Larger constellations of matter, such as continental plates, may comprise many physical features that are at rest with them and define the same reference space.",
+  "rdfs:label": "P157 occupied"
+}

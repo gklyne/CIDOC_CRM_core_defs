@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "E55_Type/Test_type_narrower",
+  "@type": [
+    "crm:E55_Type",
+    "crm:E28_Conceptual_Object",
+    "crm:E71_Man-Made_Thing",
+    "crm:E70_Thing",
+    "crm:E77_Persistent_Item",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Test_type_narrower",
+  "annal:type": "crm:E55_Type",
+  "annal:type_id": "E55_Type",
+  "crm:P127_has_broader_term": [
+    {
+      "@id": "E55_Type/Test_type_broader"
+    }
+  ],
+  "crm:P127i_has_narrower_term": [],
+  "crm:P12i_was_present_at": [],
+  "crm:P16i_was_used_for": [],
+  "crm:P1_is_identified_by_r": [],
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "rdfs:comment": "Test type narrower",
+  "rdfs:label": "Test type narrower"
+}

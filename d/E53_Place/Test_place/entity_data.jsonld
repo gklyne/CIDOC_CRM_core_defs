@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "E53_Place/Test_place",
+  "@type": [
+    "crm:E53_Place",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Test_place",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "E53_Place",
+  "rdfs:comment": "Test place",
+  "rdfs:label": "Test place"
+}

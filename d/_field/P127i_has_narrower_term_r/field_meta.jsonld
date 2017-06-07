@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P127i_has_narrower_term_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E55_Type",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/P127i_has_narrower_term",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E55_Type",
+  "annal:id": "P127i_has_narrower_term_r",
+  "annal:placeholder": "(Narrower terms)",
+  "annal:property_uri": "crm:P127i_has_narrower_term",
+  "annal:repeat_label_add": "Add narrower term",
+  "annal:repeat_label_delete": "Remove narrower term",
+  "annal:tooltip": "Narrower terms",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Narrower terms\r\n\r\nZero, one or more narrower terms (i.e. instances of E55 Type).\r\n",
+  "rdfs:label": "Narrower terms"
+}

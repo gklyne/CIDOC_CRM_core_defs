@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "E31_Document/Test_document",
+  "@type": [
+    "crm:E31_Document",
+    "crm:E73_Information_Object",
+    "crm:E90_Symbolic_Object",
+    "crm:E28_Conceptual_Object",
+    "crm:E70_Thing",
+    "crm:E77_Persistent_Item",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Test_document",
+  "annal:type": "crm:E31_Document",
+  "annal:type_id": "E31_Document",
+  "crm:P12i_was_present_at": [],
+  "crm:P16i_was_used_for": [],
+  "crm:P1_is_identified_by_r": [],
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P70_documents": [
+    {
+      "@id": "E28_Conceptual_Object/Test_conceptual_object"
+    }
+  ],
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "rdfs:comment": "Test document",
+  "rdfs:label": "Test document"
+}

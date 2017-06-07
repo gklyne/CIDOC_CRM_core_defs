@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P12i_was_present_at",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E77_Persistent_Item",
+  "annal:field_fields": [],
+  "annal:field_placement": "",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E5_Event",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E5_Event",
+  "annal:id": "P12i_was_present_at",
+  "annal:placeholder": "(Select event at which entity was present)",
+  "annal:property_uri": "crm:P12i_was_present_at",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "This property describes the active or passive presence of an E77 Persistent Item in an E5 Event without implying any specific role.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P12 was present at\r\n\r\nThis property describes the active or passive presence of an E77 Persistent Item in an E5 Event without implying any specific role. \r\n\r\nIt connects the history of a thing with the E53 Place and E50 Date of an event. For example, an object may be the desk, now in a museum on which a treaty was signed. The presence of an immaterial thing implies the presence of at least one of its carriers. \r\n\r\n## Examples: \r\n\r\n- Deckchair 42 (E19) was present at The sinking of the Titanic (E5)\r\n",
+  "rdfs:label": "P12 was present at"
+}

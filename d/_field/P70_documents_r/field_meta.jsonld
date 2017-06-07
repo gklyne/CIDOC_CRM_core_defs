@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P70_documents_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E31_Document",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/P70_documents",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E31_Document",
+  "annal:id": "P70_documents_r",
+  "annal:placeholder": "(Entities documented)",
+  "annal:property_uri": "crm:P70_documents",
+  "annal:repeat_label_add": "Add entity",
+  "annal:repeat_label_delete": "Remove entity",
+  "annal:tooltip": "Entities (instances of E1 CRM Entity) that are described by a document.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Documented entities\r\n\r\nZero, one or more entities that are described by this document.",
+  "rdfs:label": "Documented entities"
+}

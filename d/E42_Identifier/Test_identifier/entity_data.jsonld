@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "E42_Identifier/Test_identifier",
+  "@type": [
+    "crm:E42_Identifier",
+    "crm:E41_Appellation",
+    "crm:E28_Conceptual_Object",
+    "crm:E71_Man-Made_Thing",
+    "annal:EntityData"
+  ],
+  "annal:id": "Test_identifier",
+  "annal:type": "crm:E42_Identifier",
+  "annal:type_id": "E42_Identifier",
+  "crm:P12i_was_present_at": [],
+  "crm:P16i_was_used_for": [],
+  "crm:P1_is_identified_by_r": [],
+  "crm:P1i_identifies": "E28_Conceptual_Object/Test_conceptual_object",
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "rdfs:comment": "Test identifier",
+  "rdfs:label": "Test identifier"
+}

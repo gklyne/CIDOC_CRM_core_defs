@@ -14,13 +14,17 @@
   "annal:supertype_uri": [
     {
       "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
     }
   ],
   "annal:type": "annal:Type",
   "annal:type_id": "_type",
-  "annal:type_list": "_list/Default_list",
-  "annal:type_view": "_view/Default_view",
+  "annal:type_list": "_list/E70_Thing",
+  "annal:type_view": "_view/E70_Thing",
   "annal:uri": "crm:E70_Thing",
   "rdfs:comment": "# E70_Thing\r\n\r\nThis general class comprises usable discrete, identifiable, instances of E77 Persistent Item that are documented as single units.\r\n\r\nThey can be either intellectual products or physical things, and are characterized by relative stability. They may for instance either have a solid physical form, an electronic encoding, or they may be logical concept or structure.\r\n\r\n## Examples:\r\n\r\n- my photograph collection (E78 Collection)\r\n- the bottle of milk in my refrigerator (E22)\r\n- the plan of the Strassburger Muenster (E29)\r\n- the thing on the top of Otto Hahn's desk (E19)\r\n- the form of the non-smoking sign (E36)\r\n- the cave of Dirou, Mani, Greece (E27)\r\n",
-  "rdfs:label": "E70 Thing"
+  "rdfs:label": "E70 Thing",
+  "rdfs:seeAlso": []
 }

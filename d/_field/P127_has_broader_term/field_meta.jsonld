@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P127_has_broader_term",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E55_Type",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E55_Type",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E55_Type",
+  "annal:id": "P127_has_broader_term",
+  "annal:placeholder": "(select broader type)",
+  "annal:property_uri": "crm:P127_has_broader_term",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P127 has broader term\r\n\r\nThis property identifies a super-Type to which an E55 Type is related. It allows Types to be organised into hierarchies. This is the sense of \"broader term generic (BTG)\" as defined in ISO 2788.\r\n\r\n## Examples:\r\n\r\n- dime (E55) has broader term coin (E55)\r\n",
+  "rdfs:label": "P127 has broader term"
+}

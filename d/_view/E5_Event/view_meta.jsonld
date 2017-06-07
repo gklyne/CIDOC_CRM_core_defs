@@ -81,6 +81,6 @@
       "annal:property_uri": ""
     }
   ],
-  "rdfs:comment": "E5 Event view",
-  "rdfs:label": "E5 Event view"
+  "rdfs:comment": "# E5 Event view",
+  "rdfs:label": "E5 Event"
 }

@@ -18,9 +18,10 @@
   ],
   "annal:type": "annal:Type",
   "annal:type_id": "_type",
-  "annal:type_list": "_list/Default_list",
-  "annal:type_view": "_view/Default_view",
+  "annal:type_list": "_list/E77_Persistent_Item",
+  "annal:type_view": "_view/E77_Persistent_Item",
   "annal:uri": "crm:E77_Persistent_Item",
   "rdfs:comment": "# E77 Persistent Item\r\n\r\nThis class comprises items that have a persistent identity, sometimes known as \"endurants\" in philosophy.\r\n\r\nThey can be repeatedly recognized within the duration of their existence by identity criteria rather than by continuity or observation.\r\n\r\nPersistent Items can be either physical entities, such as people, animals or things, or conceptual entities such as ideas, concepts, products of the imagination or common names.\r\n\r\nThe criteria that determine the identity of an item are often difficult to establish - the decision depends largely on the judgement of the observer. For example, a building is regarded as no longer existing if it is dismantled and the materials reused in a different configuration. On the other hand, human beings go through radical and profound changes during their life-span, affecting both material composition and form, yet preserve their identity by other criteria. Similarly, inanimate objects may be subject to exchange of parts and matter. The class E77 Persistent Item does not take any position about the nature of the applicable identity criteria and if actual knowledge about identity of an instance of this class exists. There may be cases, where the identity of an E77 Persistent Item is not decidable by a certain state of knowledge.\r\n\r\nThe main classes of objects that fall outside the scope the E77 Persistent Item class are temporal objects such as periods, events and acts, and descriptive properties.\r\n\r\n## Examples: \r\n\r\n- Leonardo da Vinci \r\n- Stonehenge \r\n- the hole in the ozone layer \r\n- the First Law of Thermodynamics \r\n- the Bermuda Triangle\r\n\r\n",
-  "rdfs:label": "E77 Persistent Item"
+  "rdfs:label": "E77 Persistent Item",
+  "rdfs:seeAlso": []
 }

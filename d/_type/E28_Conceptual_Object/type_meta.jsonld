@@ -17,13 +17,20 @@
     },
     {
       "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
     }
   ],
   "annal:type": "annal:Type",
   "annal:type_id": "_type",
-  "annal:type_list": "_list/Default_list",
-  "annal:type_view": "_view/Default_view",
+  "annal:type_list": "_list/E28_Conceptual_Object",
+  "annal:type_view": "_view/E28_Conceptual_Object",
   "annal:uri": "crm:E28_Conceptual_Object",
   "rdfs:comment": "# E28 Conceptual Object\r\n\r\nThis class comprises non-material products of our minds and other human produced data that have become objects of a discourse about their identity, circumstances of creation or historical implication. The production of such information may have been supported by the use of technical devices such as cameras or computers. \r\n\r\nCharacteristically, instances of this class are created, invented or thought by someone, and then may be documented or communicated between persons. Instances of E28 Conceptual Object have the ability to exist on more than one particular carrier at the same time, such as paper, electronic signals, marks, audio media, paintings, photos, human memories, etc. \r\n\r\nThey cannot be destroyed. They exist as long as they can be found on at least one carrier or in at least one human memory. Their existence ends when the last carrier and the last memory are lost.  \r\n\r\n## Examples: \r\n\r\n- Beethoven's \"Ode an die Freude\" (Ode to Joy) (E73) \r\n- the definition of \"ontology\" in the Oxford English Dictionary \r\n- the knowledge about the victory at Marathon carried by the famous runner\r\n\r\n",
-  "rdfs:label": "E28 Conceptual Object"
+  "rdfs:label": "E28 Conceptual Object",
+  "rdfs:seeAlso": []
 }
