@@ -14,6 +14,15 @@
   "annal:id": "Test_place",
   "annal:type": "crm:E53_Place",
   "annal:type_id": "E53_Place",
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "crm:P87_is_identified_by": [
+    {
+      "@id": "E44_Place_Appellation/Test_location_identifier"
+    }
+  ],
   "rdfs:comment": "Test place",
   "rdfs:label": "Test place"
 }

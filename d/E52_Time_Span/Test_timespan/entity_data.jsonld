@@ -14,6 +14,15 @@
   "annal:id": "Test_timespan",
   "annal:type": "crm:E52_Time-Span",
   "annal:type_id": "E52_Time_Span",
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "crm:P78_is_identified_by_r": [
+    {
+      "@id": "E49_Time_Appellation/Test_timespan_identifier"
+    }
+  ],
   "rdfs:comment": "# Test timespan\r\n\r\nYears 2014-2017",
   "rdfs:label": "Test timespan"
 }

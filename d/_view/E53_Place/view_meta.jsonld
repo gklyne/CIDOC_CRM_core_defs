@@ -5,13 +5,13 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_view/E77_Persistent_Item",
+  "@id": "_view/E53_Place",
   "@type": [
     "annal:View"
   ],
-  "annal:id": "E77_Persistent_Item",
+  "annal:id": "E53_Place",
   "annal:open_view": true,
-  "annal:record_type": "crm:E77_Persistent_Item",
+  "annal:record_type": "crm:E53_Place",
   "annal:type": "annal:View",
   "annal:type_id": "_view",
   "annal:view_fields": [
@@ -36,12 +36,7 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/P12i_was_present_at_r",
-      "annal:field_placement": "small:0,12",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/P1_is_identified_by_r",
+      "annal:field_id": "_field/P87_is_identified_by_r",
       "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
     },
@@ -66,6 +61,6 @@
       "annal:property_uri": ""
     }
   ],
-  "rdfs:comment": "# E77 Persistent Item view",
-  "rdfs:label": "E77 Persistent Item"
+  "rdfs:comment": "# E53 Place view",
+  "rdfs:label": "E53 Place"
 }

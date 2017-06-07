@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P87i_identifies",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E44_Place_Appellation",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E53_Place",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E53_Place",
+  "annal:id": "P87i_identifies",
+  "annal:placeholder": "(Select place)",
+  "annal:property_uri": "crm:P87i_identifies",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "A location that is identified by this name, locator or other defining string.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P87 identifies\r\n\r\nThis property identifies an E53 Place using an E44 Place Appellation. Examples of Place Appellations used to identify Places include instances of E48 Place Name, addresses, E47 Spatial Coordinates etc. \r\n\r\n## Examples:\r\n\r\n- the location of the Duke of Wellington's House (E53) is identified by \"No 1 London\" (E45)",
+  "rdfs:label": "P87 identifies"
+}

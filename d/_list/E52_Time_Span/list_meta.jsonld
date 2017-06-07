@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/E52_Time_Span",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/E52_Time_Span",
+  "annal:default_view": "_view/E52_Time_Span",
+  "annal:display_type": "List",
+  "annal:id": "E52_Time_Span",
+  "annal:list_entity_selector": "'crm:E52_Time-Span' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "crm:E52_Time-Span",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "# List _initial_values_\r\n\r\n(List information here)",
+  "rdfs:label": "E52 Time-Span list"
+}

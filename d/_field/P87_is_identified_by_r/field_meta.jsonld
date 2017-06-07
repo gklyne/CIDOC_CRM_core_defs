@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P87_is_identified_by_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E53_Place",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/P87_is_identified_by",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E44_Place_Appellation",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E53_Place",
+  "annal:id": "P87_is_identified_by_r",
+  "annal:placeholder": "(Location identifiers)",
+  "annal:property_uri": "crm:P87_is_identified_by",
+  "annal:repeat_label_add": "Add identifier",
+  "annal:repeat_label_delete": "Remove identifier",
+  "annal:tooltip": "Identifying or defining strings for a location.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Location identifiers\r\n\r\nZero, one or more identifying or defining strings for a location.",
+  "rdfs:label": "Location identifiers"
+}

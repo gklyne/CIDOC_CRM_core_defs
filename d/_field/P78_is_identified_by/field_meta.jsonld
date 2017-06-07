@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P78_is_identified_by",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E52_Time-Span",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E49_Time_Appellation",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E49_Time_Appellation",
+  "annal:id": "P78_is_identified_by",
+  "annal:placeholder": "(Select time-span appellation)",
+  "annal:property_uri": "crm:P78_is_identified_by",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "An identifier, name or other defining value (instance of crm:E49_Time_Appellation) for this time-span.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P78 is identified by\r\n\r\nThis property identifies an E52 Time-Span using an E49 Time Appellation.\r\n\r\n## Examples:\r\n\r\n- the time span 1926 to 1988 (E52) is identified by \"Showa\" (Japanese time appellation) (E49)\r\n",
+  "rdfs:label": "P78 is identified by"
+}

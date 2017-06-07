@@ -1,0 +1,42 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E49_Time_Appellation",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E49_Time_Appellation",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E41_Appellation"
+    },
+    {
+      "@id": "crm:E90_Symbolic_Object"
+    },
+    {
+      "@id": "crm:E28_Conceptual_Object"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E49_Time_Appellation",
+  "annal:type_view": "_view/E49_Time_Appellation",
+  "annal:uri": "crm:E49_Time_Appellation",
+  "rdfs:comment": "# E49 Time Appellation\r\n\r\nThis class comprises all forms of names or codes, such as historical periods, and dates, which are characteristically used to refer to a specific E52 Time-Span.\r\n\r\nThe instances of E49 Time Appellation may vary in their degree of precision, and they may be relative to other time frames, \"Before Christ\" for example. Instances of E52 Time-Span are often defined by reference to a cultural period or an event e.g. 'the duration of the Ming Dynasty'.\r\n\r\n## Examples:\r\n\r\n- \"Meiji\" [Japanese term for a specific time-span]\r\n- \"1st half of the XX century\"\r\n- \"Quaternary\"\r\n- \"1215 Hegira\" [a date in the Islamic calendar]\r\n- \"Last century\"",
+  "rdfs:label": "E49 Time Appellation",
+  "rdfs:seeAlso": []
+}
