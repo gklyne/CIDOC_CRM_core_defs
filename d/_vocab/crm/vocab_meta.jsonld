@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/crm",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "crm",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://erlangen-crm.org/current/",
+  "rdfs:comment": "# CIDOC CRM namespace\r\n\r\nNamespace of terms defined by the Erlangen interpretation of CIDOC CRM ontology.\r\n",
+  "rdfs:label": "CIDOC CRM namespace",
+  "rdfs:seeAlso": []
+}
