@@ -13,9 +13,11 @@
   "annal:default_view_id": "E1_CRM_Entity",
   "annal:default_view_type": "E1_CRM_Entity",
   "annal:id": "CIDOC_CRM_core_defs",
+  "annal:inherit_from": "_coll/Resource_defs",
+  "annal:meta_comment": "",
   "annal:software_version": "0.1.37",
   "annal:type": "annal:Collection",
   "annal:type_id": "_coll",
-  "rdfs:comment": "",
+  "rdfs:comment": "Common subset of CIDOC CRM term definitions",
   "rdfs:label": "Common subset of CIDOC CRM term definitions"
 }
