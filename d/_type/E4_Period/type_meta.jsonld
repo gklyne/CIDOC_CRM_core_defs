@@ -14,9 +14,6 @@
   "annal:supertype_uri": [
     {
       "@id": "crm:E2_Temporal_Entity"
-    },
-    {
-      "@id": "crm:E1_CRM_Entity"
     }
   ],
   "annal:type": "annal:Type",

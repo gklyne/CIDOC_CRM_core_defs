@@ -14,12 +14,6 @@
   "annal:supertype_uri": [
     {
       "@id": "crm:E70_Thing"
-    },
-    {
-      "@id": "crm:E77_Persistent_Item"
-    },
-    {
-      "@id": "crm:E1_CRM_Entity"
     }
   ],
   "annal:type": "annal:Type",
