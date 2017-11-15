@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/E77_Persistent_Item",
   "annal:default_view": "_view/E77_Persistent_Item",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "E77_Persistent_Item",
   "annal:list_entity_selector": "'crm:E77_Persistent_Item' in [@type]",
   "annal:list_fields": [

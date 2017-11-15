@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/E1_CRM_Entity",
   "annal:default_view": "_view/E1_CRM_Entity",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "E1_CRM_Entity",
   "annal:list_entity_selector": "'crm:E1_CRM_Entity' in [@type]",
   "annal:list_fields": [

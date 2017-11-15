@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/E49_Time_Appellation",
   "annal:default_view": "_view/E49_Time_Appellation",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "E49_Time_Appellation",
   "annal:list_entity_selector": "'crm:E49_Time_Appellation' in [@type]",
   "annal:list_fields": [

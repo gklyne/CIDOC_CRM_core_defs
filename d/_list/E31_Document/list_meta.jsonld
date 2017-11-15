@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/E31_Document",
   "annal:default_view": "_view/E31_Document",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "E31_Document",
   "annal:list_entity_selector": "'crm:E31_Document' in [@type]",
   "annal:list_fields": [

@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/E39_Actor",
   "annal:default_view": "_view/E39_Actor",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "E39_Actor",
   "annal:list_entity_selector": "'crm:E39_Actor' in [@type]",
   "annal:list_fields": [

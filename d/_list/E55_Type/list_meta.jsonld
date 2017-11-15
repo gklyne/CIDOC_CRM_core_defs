@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/E55_Type",
   "annal:default_view": "_view/E55_Type",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "E55_Type",
   "annal:list_entity_selector": "'crm:E55_Type' in [@type]",
   "annal:list_fields": [

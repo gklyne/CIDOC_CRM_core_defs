@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/E53_Place",
   "annal:default_view": "_view/E53_Place",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "E53_Place",
   "annal:list_entity_selector": "'crm:E53_Place' in [@type]",
   "annal:list_fields": [

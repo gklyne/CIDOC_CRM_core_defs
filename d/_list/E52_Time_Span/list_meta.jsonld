@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/E52_Time_Span",
   "annal:default_view": "_view/E52_Time_Span",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "E52_Time_Span",
   "annal:list_entity_selector": "'crm:E52_Time-Span' in [@type]",
   "annal:list_fields": [

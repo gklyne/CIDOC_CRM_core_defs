@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/E7_Activity",
   "annal:default_view": "_view/E7_Activity",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "E7_Activity",
   "annal:list_entity_selector": "'crm:E7_Activity' in [@type]",
   "annal:list_fields": [
