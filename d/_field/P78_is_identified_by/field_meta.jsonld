@@ -24,6 +24,11 @@
   "annal:property_uri": "crm:P78_is_identified_by",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P1_is_identified_by"
+    }
+  ],
   "annal:tooltip": "An identifier, name or other defining value (instance of crm:E49_Time_Appellation) for this time-span.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

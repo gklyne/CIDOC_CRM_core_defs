@@ -30,6 +30,11 @@
   "annal:property_uri": "crm:P78_is_identified_by_r",
   "annal:repeat_label_add": "Add identifier",
   "annal:repeat_label_delete": "Remove identifier",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P1_is_identified_by"
+    }
+  ],
   "annal:tooltip": "Identifying or defining strings for a time-span.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

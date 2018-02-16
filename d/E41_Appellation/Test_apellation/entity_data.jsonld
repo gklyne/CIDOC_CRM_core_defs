@@ -8,10 +8,9 @@
   "@id": "E41_Appellation/Test_apellation",
   "@type": [
     "crm:E41_Appellation",
-    "crm:E90_Symbolic_Object",
+    "crm:E77_Persistent_Item",
     "crm:E28_Conceptual_Object",
     "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
     "crm:E1_CRM_Entity",
     "annal:EntityData"
   ],

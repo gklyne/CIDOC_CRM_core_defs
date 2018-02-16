@@ -8,7 +8,6 @@
   "@id": "E28_Conceptual_Object/Test_conceptual_object",
   "@type": [
     "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
     "crm:E70_Thing",
     "crm:E77_Persistent_Item",
     "crm:E1_CRM_Entity",

@@ -8,12 +8,11 @@
   "@id": "E42_Identifier/Test_identifier",
   "@type": [
     "crm:E42_Identifier",
+    "crm:E1_CRM_Entity",
     "crm:E41_Appellation",
     "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
     "crm:E70_Thing",
     "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
     "annal:EntityData"
   ],
   "annal:id": "Test_identifier",

@@ -30,6 +30,11 @@
   "annal:property_uri": "crm:P11i_participated_in",
   "annal:repeat_label_add": "Add event",
   "annal:repeat_label_delete": "Remove event",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P12i_was_present_at"
+    }
+  ],
   "annal:tooltip": "Zero, one or more events (instances of E5 Event) in which an actor has particpated.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

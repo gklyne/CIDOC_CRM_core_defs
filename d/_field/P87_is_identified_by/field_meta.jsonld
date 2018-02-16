@@ -24,6 +24,11 @@
   "annal:property_uri": "crm:P87_is_identified_by",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P1_is_identified_by"
+    }
+  ],
   "annal:tooltip": "An identifier, name or other defining value (instance of crm:E44_Place_Appellation) for this place.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

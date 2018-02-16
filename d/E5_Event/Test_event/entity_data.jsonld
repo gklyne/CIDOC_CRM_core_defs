@@ -8,8 +8,8 @@
   "@id": "E5_Event/Test_event",
   "@type": [
     "crm:E5_Event",
-    "crm:E4_Period",
     "crm:E2_Temporal_Entity",
+    "crm:E4_Period",
     "crm:E1_CRM_Entity",
     "annal:EntityData"
   ],

@@ -8,10 +8,10 @@
   "@id": "E7_Activity/Test_activity",
   "@type": [
     "crm:E7_Activity",
+    "crm:E1_CRM_Entity",
     "crm:E5_Event",
     "crm:E4_Period",
     "crm:E2_Temporal_Entity",
-    "crm:E1_CRM_Entity",
     "annal:EntityData"
   ],
   "annal:id": "Test_activity",

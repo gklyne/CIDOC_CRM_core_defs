@@ -24,6 +24,11 @@
   "annal:property_uri": "crm:P70_documents",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P67_refers_to"
+    }
+  ],
   "annal:tooltip": "This property describes the CRM Entities documented by instances of E31 Document.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

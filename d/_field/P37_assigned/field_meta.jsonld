@@ -24,6 +24,11 @@
   "annal:property_uri": "crm:P37_assigned",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P141_assigned"
+    }
+  ],
   "annal:tooltip": "An identifier  (instance of E42 Identifier) that was assigned.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

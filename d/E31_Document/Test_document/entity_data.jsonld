@@ -8,12 +8,10 @@
   "@id": "E31_Document/Test_document",
   "@type": [
     "crm:E31_Document",
-    "crm:E73_Information_Object",
-    "crm:E90_Symbolic_Object",
-    "crm:E28_Conceptual_Object",
     "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
     "crm:E1_CRM_Entity",
+    "crm:E28_Conceptual_Object",
+    "crm:E77_Persistent_Item",
     "annal:EntityData"
   ],
   "annal:id": "Test_document",

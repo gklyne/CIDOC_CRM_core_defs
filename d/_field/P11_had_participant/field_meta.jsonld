@@ -24,6 +24,16 @@
   "annal:property_uri": "crm:P11_had_participant",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P12_occurred_in_the_presence_of"
+    }
+  ],
+  "annal:superproperty_uris": [
+    {
+      "@id": "crm:P12_occurred_in_the_presence_of"
+    }
+  ],
   "annal:tooltip": "This property describes the active or passive participation of instances of E39 Actors in an E5 Event.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

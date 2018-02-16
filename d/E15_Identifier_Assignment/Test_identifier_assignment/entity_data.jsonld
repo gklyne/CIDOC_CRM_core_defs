@@ -8,12 +8,12 @@
   "@id": "E15_Identifier_Assignment/Test_identifier_assignment",
   "@type": [
     "crm:E15_Identifier_Assignment",
-    "crm:E13_Attribute_Assignment",
     "crm:E7_Activity",
+    "crm:E1_CRM_Entity",
     "crm:E5_Event",
     "crm:E4_Period",
     "crm:E2_Temporal_Entity",
-    "crm:E1_CRM_Entity",
+    "crm:E13_Attribute_Assignment",
     "annal:EntityData"
   ],
   "annal:id": "Test_identifier_assignment",

@@ -24,6 +24,11 @@
   "annal:property_uri": "crm:P14_carried_out_by",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P11_had_participant"
+    }
+  ],
   "annal:tooltip": "Indicates the active participation of an Actor (instance of E39 Actor) in an E7 Activity.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

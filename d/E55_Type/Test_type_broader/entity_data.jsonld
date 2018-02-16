@@ -8,10 +8,9 @@
   "@id": "E55_Type/Test_type_broader",
   "@type": [
     "crm:E55_Type",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
     "crm:E77_Persistent_Item",
+    "crm:E28_Conceptual_Object",
+    "crm:E70_Thing",
     "crm:E1_CRM_Entity",
     "annal:EntityData"
   ],

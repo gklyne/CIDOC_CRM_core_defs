@@ -8,8 +8,8 @@
   "@id": "E18_Physical_Thing/Test_physical_thing",
   "@type": [
     "crm:E18_Physical_Thing",
-    "crm:E70_Thing",
     "crm:E77_Persistent_Item",
+    "crm:E70_Thing",
     "crm:E1_CRM_Entity",
     "annal:EntityData"
   ],

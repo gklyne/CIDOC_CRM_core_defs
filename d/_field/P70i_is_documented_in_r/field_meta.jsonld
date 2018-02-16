@@ -30,6 +30,11 @@
   "annal:property_uri": "crm:P70i_is_documented_in_r",
   "annal:repeat_label_add": "Add document",
   "annal:repeat_label_delete": "Remove document",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P67i_is_referred_to_by"
+    }
+  ],
   "annal:tooltip": "Documents (instances of E31 Document) which describe the current entity.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

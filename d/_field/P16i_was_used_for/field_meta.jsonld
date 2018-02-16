@@ -24,6 +24,14 @@
   "annal:property_uri": "crm:P16i_was_used_for",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P15i_influenced"
+    },
+    {
+      "@id": "crm:P12i_was_present_at"
+    }
+  ],
   "annal:tooltip": "This property describes the use of material or immaterial things (instances of E70_Thing) in a way essential to the performance or the outcome of an E7 Activity.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

@@ -30,6 +30,11 @@
   "annal:property_uri": "crm:P11_had_participant",
   "annal:repeat_label_add": "Add participant",
   "annal:repeat_label_delete": "Remove participant",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P12_occurred_in_the_presence_of"
+    }
+  ],
   "annal:tooltip": "Actors (instances of E39 Actor) who participated in this event.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
