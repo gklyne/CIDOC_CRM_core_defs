@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/P8_took_place_on_or_within",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "crm:E4_Period",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/E53_Place",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "crm:E18_Physical_Thing",
+  "annal:id": "P8_took_place_on_or_within",
+  "annal:placeholder": "(Select thing)",
+  "annal:property_uri": "crm:P8_took_place_on_or_within",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [],
+  "annal:tooltip": "A physical thing (instance of E18 Physical Thing) where an instance of E4 Period occurred.\r\n",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# P8 took place on or within\r\n\r\nThis property describes the location of an instance of E4 Period with respect to an E19 Physical Object.\r\n\r\nP8 took place on or within (witnessed) is a shortcut of the more fully developed path from E4 Period through P7 took place at, E53 Place, P156 occupies (is occupied by) to E18 Physical Thing.\r\n\r\nIt describes a period that can be located with respect to the space defined by an E19 Physical Object such as a ship or a building. The precise geographical location of the object during the period in question may be unknown or unimportant. \r\n\r\n## Examples\r\n\r\n- The French and German armistice of 22 June 1940 was signed in the same railway carriage as the armistice of 11 November 1918.\r\n",
+  "rdfs:label": "P8 took place on or within"
+}
